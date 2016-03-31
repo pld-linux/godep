@@ -1,11 +1,11 @@
 Summary:	Dependency tool for go
 Name:		godep
-Version:	27
+Version:	60
 Release:	1
 License:	BSD
 Group:		Development/Building
 Source0:	https://github.com/tools/godep/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	01f49a3394bc200566eb31f851e7b919
+# Source0-md5:	03194aeb9b4d22ea6201ef83163cda70
 URL:		https://github.com/tools/godep
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
