@@ -7,6 +7,7 @@ Group:		Development/Building
 Source0:	https://github.com/tools/godep/archive/v%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	03194aeb9b4d22ea6201ef83163cda70
 URL:		https://github.com/tools/godep
+ExclusiveArch:	%{ix86} %{x8664} %{arm}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 # go stuff
